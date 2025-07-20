@@ -1,0 +1,23 @@
+
+---
+
+### ✅ Step 4: Add Topic-Wise Markdown Notes
+
+📄 `TOPICS/apache-vs-nginx.md`
+
+```md
+# 🆚 Apache vs Nginx
+
+## 🔥 Apache
+- Uses process/thread model
+- Better with `.htaccess` rewrites
+- Good with PHP and mod_wsgi for Django
+
+## ⚡ Nginx
+- Asynchronous, event-driven
+- Faster static file delivery
+- Great as reverse proxy for Gunicorn/Node
+
+## 🔍 When to Use
+- Apache for full backend hosting
+- Nginx as frontend + reverse proxy
